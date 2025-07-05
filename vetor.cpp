@@ -12,6 +12,10 @@ int main() {
     for (int i = 1; i < n; i++)
         if (v[i] > maior) maior = v[i];
 
-    cout << maior << endl;
+    int quadrado = maior * maior;
+
+    cout << quadrado << endl;
+
     return 0;
 }
+

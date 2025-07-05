@@ -8,9 +8,18 @@ bool ehPrimo(int n) {
     return true;
 }
 
+// Função que retorna o triplo do número
+int triplo(int n) {
+    return 3 * n;
+}
+
 int main() {
     int n;
     cin >> n;
+
     cout << (ehPrimo(n) ? "Primo" : "Não é primo") << endl;
+    cout << "Triplo: " << triplo(n) << endl;
+
     return 0;
 }
+
